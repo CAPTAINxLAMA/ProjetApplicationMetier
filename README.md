@@ -24,20 +24,21 @@
     - Bannir des User et des Content Creator.
 - Content Creator peut :
     - Créer et publier du contenu.
+    - Avoir accès à la page de stat de leurs jeux
     - Avoir les mêmes droits que les User.
 - Content Creator ne peut pas :
     - Bannir des User et des Content Creator.
 - Moderator peut :
     - Bannir des User et des Content Creator.
+    - Avoir accès à la page de stat global
     - Avoir les mêmes droits que les User.
     - Avoir les mêmes droits que les Content Creator.
 - Moderator ne peut pas :
     - Bannir d'autres Moderator.
 ## Matrice de droit :
 
-|          | ajouter des commande | supprimer des commandes | modifier une commande | voir une commande| assigner un livreur à une commande | supprimer le livreur assigné | modifier la date de livraison | supprimer un clients | voir la liste des clients
-|----------|---|---|---|---|---|---|---|---|---|
-| Admin    | x | x | x | x | x | x | x | x | x |
-| manager  |   |   |   | x | x | x | x |   | x |
-| client   | x | x | x | x |   |   |   |   |   |
-| livreur  | x |   |   | x |   |   | x |   |   |
+|          | publier du contenu | Liker du contenu | Acheter du contenu | Bannir des users et des content creator | Accès à la page de stat d'un jeux | Accès à la page de stat global | 
+|-----------------|---|---|---|---|---|---|
+| Moderateur      | x | x | x | x | x | x |
+| Content creator | x | x | x |   | x |   |
+| user            |   | x | x |   |   |   |
